@@ -39,3 +39,43 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python specific (MISSING - ADD THESE)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+backend/python-service/venv/
+*.egg-info/
+dist/
+build/
+
+# IDE files (MISSING - ADD THESE)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files (MISSING - ADD THESE)
+Thumbs.db
+.DS_Store
+
+# Temporary files (MISSING - ADD THESE)
+*.tmp
+*.temp
+uploads/
+temp/
+
+# Frontend specific (MISSING - ADD THESE)
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Screenshots 
+images/*.psd
+images/*.ai
